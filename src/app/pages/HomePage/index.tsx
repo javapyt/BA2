@@ -4,6 +4,7 @@ import { NavBar } from 'app/components/NavBar';
 import { Masthead } from './Masthead';
 import { Features } from './Features';
 import { PageWrapper } from 'app/components/PageWrapper';
+import Scanner from './Scanner';
 
 export function HomePage() {
   return (
@@ -15,6 +16,7 @@ export function HomePage() {
           content="A React Boilerplate application homepage"
         />
       </Helmet>
+      <Scanner />
       <NavBar />
       <PageWrapper>
         <Masthead />
